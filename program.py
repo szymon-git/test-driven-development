@@ -1,0 +1,2 @@
+def HelloWorld():
+    return "HelloWorld"
