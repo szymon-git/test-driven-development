@@ -10,7 +10,8 @@ class TestString(unittest.TestCode):
         self.assertEqual(tester.doLower("AlA_I_AS"), "ala_i_as")
 
     def test_replace(self):
-        self.assertEqual(tester.doReplace("12345"), "54321")
+        str = program.doReplace("co", "na co")
+        self.assertTrue(str.index("na co") > 0)
 
     def test_len(self):
         self.assertEqual(tester.doLen("Samochod"), 8)
